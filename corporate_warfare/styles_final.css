@@ -1,0 +1,62 @@
+
+/* Basic styling for the rulebook */
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #eaf0f0;
+}
+
+header {
+  background-color: rgb(9, 27, 41);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  border-bottom: 3px solid #333;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+h2 {
+  background-color: #4f6672;
+  color: white;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+ul, ol {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Custom styles */
+#objective, #winning-condition {
+  background-color: #dde2ed;
+}
+
+#components img, #setup img {
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+/* ... rest of the CSS will be similar, but will incorporate the new color palette */
