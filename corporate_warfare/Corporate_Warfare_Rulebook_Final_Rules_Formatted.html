@@ -16,7 +16,7 @@
 <main>
   <section id="objective">
     <h2>Objective</h2>
-    <p>Accumulate the most money by the end of a predetermined number of rounds (suggested: 10 rounds). Players act as CEOs of rival corporations, building their empire while engaging in corporate espionage.</p>
+    <p>From an initial capital, build a company become the first one to multiply your investment. Players act as CEOs of rival corporations, building their empire while engaging in corporate espionage.</p>
   </section>
   
   <section id="components">
@@ -24,9 +24,9 @@
     <img src="chessboard.jpg" alt="Chessboard of Greed" style="width:200px;height:200px; float: left; margin-right: 40px;">
     <ul>
       <li>Pen and Paper: For tracking resources, departments, and actions.</li>
-      <li>A Standard 52-Card Deck: Use only the face cards (A, K, Q, J) and two Jokers.</li>
-      <li>6-Sided Dice: For introducing elements of chance and uncertainty.</li>
-      <li>Tokens: For representing Products, Employees, and Money.</li>
+      <li>A Modified Playing Cards Deck: Use only the face cards (A, K, Q, J) and two Jokers. These are the "Special Action" cards.</li>
+      <li>6-Sided Dice: For introducing elements of chance and uncertainty. The more dice the better.</li>
+      <li>Tokens of three types: for representing Products, Employees, and Dollars.</li>
     </ul>
   </section>
 
@@ -35,8 +35,14 @@
   <section id="setup">
     <h2>Setup</h2>
     <ul>
-      <li>Each player starts with 3 employee tokens and a hand of 2 cards drawn from the modified deck.</li>
-      <li>Players have four departments: Research, HR, Production, and Sales.</li>
+      <li>Each player starts with:
+        <ul>
+          <li>3 Employee tokens</li>
+          <li>A hand of 2 Special Action cards drawn from the modified deck.</li>
+          <li>10 dollar tokens</li>
+        </ul> 
+      </li>
+      <li>Players have four departments: Research, HR, Production, and Sales. These can be drawn as rectangles on a piece of paper</li>
       <li>Determine the first player via a coin toss or another fair method.</li>
     </ul>
   </section>
@@ -57,29 +63,32 @@
       <li>
         <strong>Action Phase</strong>
         <ul>
-          <li>Players may play any number of special action cards from their hand.</li>
-          <li>Includes playing an "Espionage" card, which—if successful—disrupts a chosen department in the opponent's corporation for the current turn. (See Espionage section for details.)</li>
+          <li>Players may play any number of Special Action cards from their hand.</li>
+          <li>Includes playing an "Espionage" card, which — if successful — disrupts a chosen department in the opponent's corporation for the current turn. (See Espionage section for details.)</li>
         </ul>
       </li>
       <li>
         <strong>Execution Phase</strong>
         <ul>
-          <li>Roll a die for the overall market demand for the current turn. Add additional dice for each "Market Research" card in play.</li>
+          <li>Roll a die for the overall market demand for the current turn. Add 2 for each "Market Research" card in play.</li>
           <li>For each department where they have employee tokens, players roll a 6-sided die per employee:</li>
           <ul>
-            <li>Production: On a 5-6, produce a product token.</li>
-            <li>Research: On a 5-6, draw a special action card.</li>
-            <li>HR: On a 5-6, gain a new employee token.</li>
-            <li>Sales: On a 5-6, make a sale, earning 2 money tokens, up to the overall market demand.</li>
+            <li>Production: On a 4-6, gain a product token.</li>
+            <li>Research: On a 4-6, draw a special action card. If there is no card left in the pile, the discard is shuffled and becomes the new pile.</li>
+            <li>HR: On a 4-6, gain a new employee token, if desired.</li>
+            <li>Sales: On a 4-6, sell a product for 3 money tokens, up to the overall market demand. For example if the demand is 2, each player can sell at most two products. The products sold are discarded.</li>
           </ul>
-          <li>An "Innovation Boost" card can upgrade a department, lowering the success roll threshold (from 5-6 to 4-6, 4-6 to 3-6, etc.).</li>
+          <li>When an "Improved Methods" card is placed on a department, it is upgraded, lowering the success roll threshold (from 4-6 to 3-6, 3-6 to 2-6, etc.).</li>
         </ul>
       </li>
       <li>
         <strong>Economic Upkeep Phase</strong>
         <ul>
-          <li>Players must pay 1 money token per employee token for upkeep costs.</li>
+          <li>Players must pay 1 money token per 3 employees for upkeep costs.</li>
+          <li>Players must pay 1 money token per 6 products they have for storage costs.</li>
           <li>If a player cannot afford upkeep for all their employees, they must let one go.</li>
+          <li>Players can fire any number of employees if they wish to</li>
+          <li>At the end of the turn, players can have a maximum of 5 cards in their hand. They discard any additional card of their choosing.</li>
         </ul>
       </li>
     </ol>
@@ -88,6 +97,17 @@
   <hr/>
   <br/>
   <br/>
+
+  <section id="special-actions">
+    <h2>Special Action Cards</h2>
+    <ul>
+      <li><strong>Espionage (Joker)</strong>: Disrupts a chosen department in the opponent's corporation for one turn. Discard after use.</li>
+      <li><strong>Reconversion (Queen)</strong>: Reallocate one employee to another department permanently. Discard after use.</li>
+      <li><strong>Innovation Boost (King)</strong>: Doubles the output of the Department of your choice for one turn. Place this card face-up on the upgraded department. Discard after use.</li>
+      <li><strong>Improved Methods (Ace)</strong>: Upgrades a department, making success rolls easier (see execution phase). Can be cumulated. Place this card face-up on the upgraded department.</li>
+      <li><strong>Market Research (J)</strong>: When played, adds 2 permanently to the overall demand (see execution phase). Place this card face-up in the center of the board.</li>
+  </ul>
+  </section>
 
   <section id="espionage-mechanic">
     <h2>Espionage Mechanic</h2>
@@ -106,7 +126,7 @@
 
   <section id="winning-condition">
     <h2>Winning Condition</h2>
-    <p>The game concludes after 10 rounds. The player with the most money tokens wins.</p>
+    <p>The game concludes when any player has more than 30 dollars at the end of a round, after paying its employees. The player with the most money tokens wins.</p>
   </section>
 
 </main>
