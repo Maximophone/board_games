@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles_final.css">
+  <title>Règles de Guerre Corporative</title>
+</head>
+<body>
+
+<header>
+  <img src="dollarsign.jpg" alt="Signe Dollar" style="width:70px;height:70px; display:inline-block; vertical-align: middle;">
+  <h1 style="display:inline-block;">Guerre Corporative</h1>
+  <img src="dollarsign.jpg" alt="Signe Dollar" style="width:70px;height:70px; display:inline-block; vertical-align: middle;">
+</header>
+
+<main>
+  <section id="objective">
+    <h2>Objectif</h2>
+    <p>À partir d'un capital initial, votre but est de construire une entreprise afin d'être le premier à multiplier votre investissement. Les joueurs incarnent les PDG de sociétés rivales, construisant leur empire tout en se livrant à l'espionnage industriel.</section>
+  </section>
+
+  <section id="components">
+    <h2>Composants</h2>
+    <img src="chessboard.jpg" alt="Échiquier de l'Avarice" style="width:200px;height:200px; float: left; margin-right: 40px;">
+    <ul>
+      <li>Stylo et Papier : Pour suivre les ressources, les départements et les actions.</li>
+      <li>Un Jeu de Cartes Modifié : Utilisez uniquement les cartes à figure (A, R, D, V) et deux Jokers. Ce sont les cartes "Action Spéciale".</li>
+      <li>Dés à 6 Faces : Pour introduire des éléments de hasard et d'incertitude. Plus il y a de dés, mieux c'est.</li>
+      <li>Jetons de trois sortes : pour symboliser les Produits, les Employés et les Dollars.</li>
+    </ul>
+  </section>
+
+  <hr/>
+  <br/><br/><br/><br/><br/><br/>  
+
+  <section id="configuration">
+    <h2>Configuration</h2>
+    <ul>
+      <li>Chaque joueur commence avec :
+        <ul>
+          <li>3 jetons Employé</li>
+          <li>Une main de 2 cartes Action Spéciale tirées du jeu modifié.</li>
+          <li>10 jetons dollar</li>
+        </ul> 
+      </li>
+      <li>Les joueurs ont quatre départements : Recherche, RH, Production et Ventes. Ceux-ci peuvent être dessinés comme des rectangles sur une feuille de papier.</li>
+      <li>Déterminez le premier joueur par un tirage au sort ou une autre méthode équitable.</li>
+    </ul>
+  </section>
+
+  <hr/>
+
+  <section id="structure-du-tour">
+    <h2>Structure du Tour</h2>
+    <p>Chaque tour est composé de quatre phases :</p>
+    <ol>
+      <li>
+        <strong>Phase d'Affectation</strong>
+        <ul>
+          <li>Les joueurs répartissent leurs jetons Employé disponibles entre les différents départements.</li>
+          <li>Note : Un jeton Employé ne peut pas être partagé entre plusieurs départements.</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Phase d'Action</strong>
+        <ul>
+          <li>Les joueurs peuvent jouer autant de cartes Actions Spéciales qu'ils le souhaitent depuis leur main.</li>
+          <li>Cela inclut la possibilité de jouer une carte "Espionnage", qui — si réussie — perturbe un département choisi dans la compagnie adverse pour le tour en cours. (Voir la section sur l'Espionnage pour plus de détails.)</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Phase d'Exécution</strong>
+        <ul>
+          <li>Lancez un dé pour déterminer la demande globale du marché pour le tour en cours. Ajoutez 2 pour chaque carte "Étude de Marché" en jeu.</li>
+          <li>Pour chaque département où ils ont des jetons Employé, les joueurs lancent un dé à 6 faces par employé :</li>
+          <ul>
+            <li>Production : Sur un 4-6, obtenez un jeton Produit.</li>
+            <li>Recherche : Sur un 4-6, piochez une carte Action Spéciale. S'il n'y a plus de carte dans la pile, la défausse est mélangée et devient la nouvelle pile.</li>
+            <li>RH : Sur un 4-6, obtenez un nouveau jeton Employé, si désiré.</li>
+            <li>Ventes : Sur un 4-6, vendez un produit pour 3 jetons Dollar, jusqu'à la demande globale du marché. Par exemple, si la demande est de 2, chaque joueur peut vendre au maximum deux produits. Les produits vendus sont retirés du jeu.</li>
+          </ul>
+          <li>Lorsqu'une carte "Méthodes Améliorées" est placée sur un département, ce dernier est amélioré, abaissant le seuil de réussite du lancer de dé (de 4-6 à 3-6, de 3-6 à 2-6, etc.).</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Phase de Maintenance Économique</strong>
+        <ul>
+          <li>Les joueurs doivent payer 1 jeton Dollar pour 3 Employés pour les frais de maintenance.</li>
+          <li>Les joueurs doivent payer 1 jeton Dollar pour 6 Produits qu'ils possèdent pour les frais de stockage.</li>
+          <li>Si un joueur ne peut pas assumer les coûts de maintenance pour tous ses employés, il doit en licencier un.</li>
+          <li>Les joueurs peuvent licencier autant d'employés qu'ils le souhaitent.</li>
+          <li>À la fin du tour, les joueurs peuvent avoir un maximum de 5 cartes dans leur main. Ils défaussent toute carte supplémentaire de leur choix.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section id="cartes-actions-speciales">
+    <h2>Cartes Actions Spéciales</h2>
+    <ul>
+      <li><strong>Espionnage (Joker)</strong>: Perturbe un département choisi dans la compagnie adverse pour un tour. Défaussez après utilisation.</li>
+      <li><strong>Reconversion (Reine)</strong>: Réaffecte un employé à un autre département de façon permanente. Défaussez après utilisation.</li>
+      <li><strong>Boost d'Innovation (Roi)</strong>: Double la production du département de votre choix pour un tour. Placez cette carte face visible sur le département amélioré. Défaussez après utilisation.</li>
+      <li><strong>Méthodes Améliorées (As)</strong>: Améliore un département, rendant les lancers de réussite plus faciles (voir phase d'exécution). Peut être cumulé. Placez cette carte face visible sur le département amélioré.</li>
+      <li><strong>Étude de Marché (J)</strong>: Lorsqu'elle est jouée, ajoute 2 en permanence à la demande globale (voir phase d'exécution). Placez cette carte face visible au centre du plateau.</li>
+    </ul>
+  </section>
+  
+  <section id="mecanisme-espionnage">
+    <h2>Espionnage</h2>
+    <img src="espionage.jpg" alt="Membre du Conseil Rusé" style="width:200px;height:200px; float: right; margin-left: 20px;">
+    <ul>
+      <li>Les joueurs peuvent prétendre avoir une carte Espionnage, même s'ils n'en ont pas.</li>
+      <li>Pour jouer Espionnage, placez une carte face cachée sur un département de votre adversaire.</li>
+      <li>Le joueur ciblé peut soit appeler le bluff, soit accepter le sabotage. S'il accepte, le sabotage est réussi et la carte face cachée est défaussée.</li>
+      <li>Si un bluff est appelé, la carte est révélée :</li>
+        <ul>
+          <li>S'il s'agit d'une carte Espionnage, le défenseur perd un jeton Employé dans le département ciblé et le sabotage est réussi.</li>
+          <li>S'il ne s'agit pas d'une carte Espionnage, l'attaquant lance un dé et perd cette somme d'argent. S'il ne peut pas payer, il perd un jeton Employé.</li>
+        </ul>
+    </ul>
+  </section>
+  
+  <section id="winning-condition">
+    <h2>Condition de Victoire</h2>
+    <p>La partie se termine lorsqu'un joueur a plus de 30 dollars à la fin d'un tour, après avoir payé ses employés. Le joueur avec le plus de jetons Dollar gagne.</p>
+  </section>
+  
+</main>
+
+</body>
+</html>
